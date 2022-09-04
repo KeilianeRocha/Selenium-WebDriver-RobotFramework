@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20220904 16:28:44.297" rpa="false" schemaversion="3">
+<suite id="s1" name="Checkbox" source="C:\Keili\robot\web\checkbox.robot">
+<test id="s1-t1" name="Marcando opção com Id" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220904 16:28:44.698" level="INFO">Opening browser 'chrome' to base url 'https://training-wheels-protocol.herokuapp.com'.</msg>
+<status status="PASS" starttime="20220904 16:28:44.697" endtime="20220904 16:28:51.883"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${url}checkboxes</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20220904 16:28:51.884" level="INFO">Opening url 'https://training-wheels-protocol.herokuapp.comcheckboxes'</msg>
+<msg timestamp="20220904 16:28:52.668" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220904 16:28:52.669" level="FAIL">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=105.0.5195.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DEDF13+2219795]
+	Ordinal0 [0x00D82841+1779777]
+	Ordinal0 [0x00C9423D+803389]
+	Ordinal0 [0x00C90A12+789010]
+	Ordinal0 [0x00C878FD+751869]
+	Ordinal0 [0x00C8853F+755007]
+	Ordinal0 [0x00C87B11+752401]
+	Ordinal0 [0x00C8706A+749674]
+	Ordinal0 [0x00C85F94+745364]
+	Ordinal0 [0x00C863FD+746493]
+	Ordinal0 [0x00C95A8E+809614]
+	Ordinal0 [0x00CEF87D+1177725]
+	Ordinal0 [0x00CDE7FC+1107964]
+	Ordinal0 [0x00CEF192+1175954]
+	Ordinal0 [0x00CDE616+1107478]
+	Ordinal0 [0x00CB7F89+950153]
+	Ordinal0 [0x00CB8F56+954198]
+	GetHandleVerifier [0x010E2CB2+3040210]
+	GetHandleVerifier [0x010D2BB4+2974420]
+	GetHandleVerifier [0x00E86A0A+565546]
+	GetHandleVerifier [0x00E85680+560544]
+	Ordinal0 [0x00D89A5C+1808988]
+	Ordinal0 [0x00D8E3A8+1827752]
+	Ordinal0 [0x00D8E495+1827989]
+	Ordinal0 [0x00D980A4+1867940]
+	BaseThreadInitThunk [0x760EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77137A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77137A6E+238]
+</msg>
+<status status="FAIL" starttime="20220904 16:28:51.883" endtime="20220904 16:28:52.866"/>
+</kw>
+<kw name="Select Checkboxe">
+<arg>Id:thor</arg>
+<status status="NOT RUN" starttime="20220904 16:28:52.872" endtime="20220904 16:28:52.872"/>
+</kw>
+<kw name="Checkboxe Should Be Select">
+<arg>Id:thor</arg>
+<status status="NOT RUN" starttime="20220904 16:28:52.878" endtime="20220904 16:28:52.878"/>
+</kw>
+<status status="FAIL" starttime="20220904 16:28:44.696" endtime="20220904 16:28:52.879">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=105.0.5195.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DEDF13+2219795]
+	Ordinal0 [0x00D82841+1779777]
+	Ordinal0 [0x00C9423D+803389]
+	Ordinal0 [0x00C90A12+789010]
+	Ordinal0 [0x00C878FD+751869]
+	Ordinal0 [0x00C8853F+755007]
+	Ordinal0 [0x00C87B11+752401]
+	Ordinal0 [0x00C8706A+749674]
+	Ordinal0 [0x00C85F94+745364]
+	Ordinal0 [0x00C863FD+746493]
+	Ordinal0 [0x00C95A8E+809614]
+	Ordinal0 [0x00CEF87D+1177725]
+	Ordinal0 [0x00CDE7FC+1107964]
+	Ordinal0 [0x00CEF192+1175954]
+	Ordinal0 [0x00CDE616+1107478]
+	Ordinal0 [0x00CB7F89+950153]
+	Ordinal0 [0x00CB8F56+954198]
+	GetHandleVerifier [0x010E2CB2+3040210]
+	GetHandleVerifier [0x010D2BB4+2974420]
+	GetHandleVerifier [0x00E86A0A+565546]
+	GetHandleVerifier [0x00E85680+560544]
+	Ordinal0 [0x00D89A5C+1808988]
+	Ordinal0 [0x00D8E3A8+1827752]
+	Ordinal0 [0x00D8E495+1827989]
+	Ordinal0 [0x00D980A4+1867940]
+	BaseThreadInitThunk [0x760EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77137A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77137A6E+238]
+</status>
+</test>
+<test id="s1-t2" name="Marcando opção com Value" line="16">
+<status status="FAIL" starttime="20220904 16:28:52.888" endtime="20220904 16:28:52.889">Test contains no keywords.</status>
+</test>
+<status status="FAIL" starttime="20220904 16:28:44.300" endtime="20220904 16:28:52.891"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Checkbox">Checkbox</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
