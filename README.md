@@ -1,5 +1,5 @@
 # Selenium Web Driver com Robot Framework
-## Primeiros Passos
+## Introdução
 ### O que é o Robot Framework?
 
 * Robot Framework é uma estrutura genérica de automação de código aberto
@@ -22,4 +22,20 @@
 3. Entre outras linguagens de programação
 
 🔗[Link para o site do Robot Framework](https://robotframework.org/)
+
+🔗[Link para o site Selenium with Python](https://selenium-python.readthedocs.io/)
+
+🔗[Link para o site Training Wheels para treino](https://training-wheels-protocol.herokuapp.com/)
+
+<div>
+ <img align="left" alt="Keila-pic" height="350" style="border-radius:50px;" src="https://media4.giphy.com/media/3o7WTL4qQCbbLLV2Pm/giphy.gif?cid=ecf05e47jd6ko93jgbpspjylhrklxoq4j99dznv5bxf60l3m&rid=giphy.gif&ct=gwidth=676&height=676">
+</div> 
+
+
+
+
+
+
+
+
  
